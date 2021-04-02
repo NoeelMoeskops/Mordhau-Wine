@@ -42,7 +42,7 @@ services:
   mordhau-wine:
     restart: unless-stopped
     container_name: mordhau
-    image: noeel/mordhau-wine
+    image: clinicallylazy/mordhauwineserver
     volumes:
       - ./mordhau/server:/mordhau # optional, but nice
       - ./mordhau/config:/config
